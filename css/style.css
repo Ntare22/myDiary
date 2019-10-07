@@ -17,6 +17,10 @@ body {
     margin-bottom: 130px;
 }
 
+::placeholder {
+    font-size: 1.5em;
+}
+
 /* Header */
 header {
     position: fixed;
@@ -343,6 +347,38 @@ aside p a:hover {
     background-color: #f8f8f8;
 }
 
+/* Account Settings Page */
+#account {
+    width: 50%;
+    float: left;
+    min-height: 700px;
+    z-index: -1;
+    background: #020024;
+}
+
+#account img {
+    width: 40%;
+    height: 40%;
+    padding-left: 30%;
+    padding-top: 10%;
+}
+
+#username,
+#number,
+.profile-wrds {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2em;
+}
+
+.profile-wrds {
+    font-size: 1.5em;
+}
+
+#number {
+    font-size: 3em;
+    font-weight: bolder;
+}
 
 
 /* Footer */
@@ -445,6 +481,19 @@ footer {
         position: relative;
     }
 
+    .popUp {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 100px;
+        left: -30%;
+        top: 0;
+        width: 160%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+    }
 
 
     /* Header */
@@ -556,12 +605,9 @@ footer {
 
     .thoughts-wrap {
         width: 90% !important;
-        position: fixed;
-        margin-left: 1px;
-    }
-
-    .thoughts-wrap {
-        margin-top: 40px;
+        /* position: fixed; */
+        margin-left: 3.5%;
+        margin-top: 20%;
         height: 80vh;
     }
 

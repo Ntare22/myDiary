@@ -54,14 +54,18 @@ const saveEntry = () => {
 
 }
 
+/***************** Profile *****************/
+
 
 /************* Login ***************/
 
+const logIn = () => {
+    console.log("We're logged in")
+}
 
 
 
-
-/************* Logging out of myDiary App */
+/************* Logging out of myDiary App  */
 
 const logOut = () => {
     console.log("And we're logged out!!!!")
