@@ -209,11 +209,11 @@ aside p a:hover {
     height: 80vh;
 }
 
-.account {
+/* .account {
     background: url("../img/icons/account.png");
     z-index: 2;
     width: 2px;
-}
+} */
 
 .thoughts {
     background: #D2DAE6;
@@ -520,6 +520,15 @@ footer {
         float: right;
         padding-left: 60%;
         margin-top: 7px;
+    }
+
+    /* Account Settings Page */
+    #account {
+        width: 100%;
+        float: left;
+        min-height: 700px;
+        z-index: -1;
+        background: #020024;
     }
 }
 
