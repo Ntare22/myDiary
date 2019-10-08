@@ -453,14 +453,14 @@ footer {
         float: left;
         /* text-align: center; */
         opacity: 0.7;
-        height: 80vh;
+        /* height: 80vh; */
         overflow: scroll;
     }
 
     .options {
         width: 10%;
         background: #020024;
-        height: 80vh;
+        /* height: 80vh; */
         position: relative;
     }
 
@@ -616,8 +616,8 @@ footer {
         width: 90% !important;
         /* position: fixed; */
         margin-left: 3.5%;
-        margin-top: 20%;
-        height: 80vh;
+        margin-top: 18%;
+        height: 75vh;
     }
 
     .item div,
