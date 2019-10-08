@@ -410,6 +410,10 @@ footer {
         margin-bottom: 130px;
     }
 
+    ::placeholder {
+        font-size: 1em;
+    }
+
     .brand {
         margin-left: 0px;
     }
