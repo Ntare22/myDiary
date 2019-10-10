@@ -164,7 +164,8 @@ aside {
 
 .signup-info button,
 .signin-info button,
-.thoughts-btn {
+.thoughts-btn,
+.settings button {
     padding: 12px 20px;
     margin: 8px 0px;
     width: 40%;
@@ -209,11 +210,6 @@ aside p a:hover {
     height: 80vh;
 }
 
-/* .account {
-    background: url("../img/icons/account.png");
-    z-index: 2;
-    width: 2px;
-} */
 
 .thoughts {
     background: #D2DAE6;
@@ -233,6 +229,7 @@ aside p a:hover {
     background: #020024;
     margin-bottom: 5px;
     margin-right: 5%;
+    margin-left: -1%;
     border-radius: 5px;
     padding-left: 3%;
     padding-top: 1%;
@@ -380,6 +377,25 @@ aside p a:hover {
     font-weight: bolder;
 }
 
+.settings {
+    margin-top: 30%;
+}
+
+.settings h2,
+.settings p {
+    font-size: 2em;
+    margin-left: 2%
+}
+
+.settings p {
+    margin-top: -5%;
+    font-size: 1em;
+}
+
+.settings input {
+    padding: 8px 10px;
+}
+
 
 /* Footer */
 
@@ -485,6 +501,10 @@ footer {
         position: relative;
     }
 
+    .item {
+        margin-left: -3%;
+    }
+
     .popUp {
         display: none;
         position: fixed;
@@ -527,12 +547,24 @@ footer {
     }
 
     /* Account Settings Page */
+
     #account {
         width: 100%;
         float: left;
         min-height: 700px;
         z-index: -1;
         background: #020024;
+    }
+
+    .settings h2,
+    .settings p {
+        font-size: 1.5em;
+        margin-left: 2%
+    }
+
+    .settings p {
+        margin-top: -2%;
+        font-size: 1em;
     }
 }
 
@@ -562,6 +594,10 @@ footer {
         float: right;
         padding-left: 50%;
         margin-top: 0px;
+    }
+
+    .item {
+        margin-left: -8%;
     }
 
     .item div,
@@ -605,7 +641,8 @@ footer {
     .container {
         width: 90%;
         margin: auto;
-        overflow: hidden;
+        margin-top: 60px;
+        overflow: scroll;
         border-radius: 10px;
         padding-top: 0px;
         margin-bottom: 0px;
@@ -620,7 +657,7 @@ footer {
         width: 90% !important;
         /* position: fixed; */
         margin-left: 3.5%;
-        margin-top: 18%;
+        margin-top: 12%;
         height: 60vh;
     }
 
